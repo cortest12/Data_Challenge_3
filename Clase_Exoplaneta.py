@@ -38,4 +38,7 @@ class Exoplaneta(Planeta):
             return 'Es similar a Tatooin'
         else:
             return 'No es similar a Tatooin'
+# funcion que devuelve la masa del exoplaneta en masas terrestres
+    def masa_en_masas_terrestres(self):
+        return (self._masa_pl*317.83)
 
