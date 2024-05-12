@@ -36,5 +36,7 @@ class Estrella(object):
             return LM_P
         else:
             return 'faltan datos para calcular la funcion'
-
+#funcion para calcular la distacia en soles
+    def Distancia_en_Soles(self):
+        return (self._distancia)/(Rsol*2)
         
