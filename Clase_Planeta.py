@@ -22,5 +22,8 @@ class Planeta(object):
             return PR
         else:
             return 'faltan datos para calcular la funcion'
-    
+#funcion que devuelve la densidad planetaria
+    def Densidad_planetaria(self):
+        V=(4/3)*np.pi*(self._radio_pl^3)
+        return self._masa_pl/V
 
